@@ -1,0 +1,101 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+header{
+    background-color:#000000;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+nav ul{
+    list-style: none ;
+    padding:0;
+}
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+nav a {
+    color:white;
+    text-decoration: none;
+}
+nav a :hover{
+    color:blue;
+}
+table {
+    width: 100%;
+    border-collapse: collapse ;
+    margin-top: 20px;
+}
+table,th,td {
+    border: 1px solid black;
+    padding: 10px;
+}
+form {
+    margin: 20px;
+}
+input,textarea{
+    width: 100%;
+    padding: 8px;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+footer{
+    text-align: center;
+    margin-top: 40px;
+    background: black;
+    color: white;
+    padding: 25px;
+    border-top: 3px;
+    font-size: 14px;
+}
+body{
+    background-color: #e6f0ff;
+}
+h2{
+    text-align: center;
+}
+td,th{
+    border-bottom: 2px solid black;
+}
+th{
+    background-color: #000000;
+    color: white;
+}
+td{
+    text-align: center;
+    font-weight: bold;
+}
+p{
+    font-weight: bold;
+}
+input {
+    border: 3px,solid,black;
+}
+textarea{
+    border: 3px,solid,black;
+}
+@media(max-width:768px){
+    nav ul il {
+        display: block;
+        margin: 10px 0;
+    }
+    .hero{
+        margin: 10px;
+        padding: 20px;
+    }
+    table{
+        font-size: 12px;
+    }
+    input ,textarea{
+        width: 100%;
+    }
+    footer{
+        font-size: 12px;
+    }
+}
