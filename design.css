@@ -80,6 +80,18 @@ input {
 textarea{
     border: 3px,solid,black;
 }
+li a :link{
+    color: white;
+}
+li a:visited{
+    color: blue;
+}
+ li a:hover{
+    color:red;
+}
+button:hover{
+    background-color: red ;
+}
 @media(max-width:768px){
     nav ul il {
         display: block;
